@@ -2,6 +2,9 @@
 
 A full-featured web-based Password Toolkit built using **Flask**, offering both a **Password Generator** and **Password Analyzer**. This toolkit helps users create strong passwords and evaluate password strength based on various metrics like length, character variety, sequential patterns, and data breach history (using Have I Been Pwned API).
 
+Live Demo: 👉 [Click here to use the Password Toolkit]([https://your-render-app-url.onrender.com](https://password-toolkit-clfw.onrender.com))
+
+
 ---
 
 ## 🚀 Features
@@ -34,34 +37,6 @@ A full-featured web-based Password Toolkit built using **Flask**, offering both 
 - **Frontend:** HTML, CSS (Dark UI), JavaScript (Vanilla)
 - **Security API:** HIBP (Pwned Passwords)
 - **Styling:** Pure CSS with responsive design
-
----
-
-## 📦 Setup Instructions
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/password-toolkit.git
-cd password-toolkit
-```
-
-### 2. Create and activate a virtual environment (optional but recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the app
-```bash
-python app.py
-```
-
-Open your browser and go to `http://127.0.0.1:5000`.
 
 ---
 
@@ -105,23 +80,11 @@ password-toolkit/
 
 - Entropy & crack time estimation
 - Detailed recommendations
-- Dark/Light theme toggle
 - Localization and accessibility enhancements
-
----
-
-## 🧾 License
-
-This project is licensed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ---
 
 ## 🙋‍♂️ Author
 
 **Harshit Goel**  
-Connect with me on [LinkedIn](https://www.linkedin.com/in/harshit-goel-dev)  
-Twitter: [@goelcodes](https://twitter.com/goelcodes)  
-
----
-
-## 🌟 Give this repo a ⭐ if it helped you or inspired you!
+Connect with me on [LinkedIn](https://www.linkedin.com/in/harshit-goel-cs)  
