@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Password Toolkit</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Password Toolkit</h1>
+
+    <div class="tabs">
+      <button id="gen-tab" class="tab active">Generator</button>
+      <button id="analyze-tab" class="tab">Analyzer</button>
+    </div>
+
+    <div id="generator" class="tab-content">
+      <div class="pw-box">
+        <input type="text" id="gen-output" readonly placeholder="Generated password will appear here" />
+        <button id="copy-btn" title="Copy to clipboard">📋</button>
+      </div>
+
+      <div class="slider-container">
+        <label class="slider-label">Password Length: <span id="pw-length-value">12</span></label>
+        <input type="range" min="8" max="64" value="12" id="pw-length" />
+      </div>
+
+      <div class="checkboxes">
+        <label><input type="checkbox" id="upper" checked> Uppercase (A-Z)</label>
+        <label><input type="checkbox" id="lower" checked> Lowercase (a-z)</label>
+        <label><input type="checkbox" id="number" checked> Numbers (0-9)</label>
+        <label><input type="checkbox" id="symbol" checked> Symbols (!@#$%)</label>
+      </div>
+
+      <button id="generate-btn">Generate Password</button>
+    </div>
+
+    <div id="analyzer" class="tab-content hidden">
+      <input type="text" id="analyze-input" placeholder="Enter password to analyze"/>
+
+      <div class="strength-container">
+        <div class="strength-bar">
+          <div id="strength-fill"></div>
+        </div>
+        <div class="strength-info">
+          <span id="strength-label">Enter password</span>
+          <span id="strength-score"></span>
+        </div>
+      </div>
+
+      <div class="analysis" id="analysis-result"></div>
+      <div id="pwned-message" class="warning"></div>
+      <div id="sequential-message" class="warning"></div>
+
+      <!-- <div class="recommendations" id="recommendations" style="display: none;">
+        <h4>Recommendations:</h4>
+        <ul id="recommendations-list"></ul>
+      </div> 
+
+      <div class="estimate" id="time-to-crack"></div> -->
+    </div>
+
+    <p class="footer">All processing happens securely. Your passwords are never stored or transmitted unnecessarily.</p>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
