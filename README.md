@@ -2,10 +2,6 @@
 
 A full-featured web-based Password Toolkit built using **Flask**, offering both a **Password Generator** and **Password Analyzer**. This toolkit helps users create strong passwords and evaluate password strength based on various metrics like length, character variety, sequential patterns, and data breach history (using Have I Been Pwned API).
 
-![Password Toolkit Screenshot](![image](https://github.com/user-attachments/assets/d6aacdaa-8ece-4677-90c7-65fff1866ab5)
-)![image](https://github.com/user-attachments/assets/af43dc24-7b06-46f5-bec7-d0cee1f7b31c)
-
-
 ---
 
 ## 🚀 Features
@@ -111,12 +107,6 @@ password-toolkit/
 - Detailed recommendations
 - Dark/Light theme toggle
 - Localization and accessibility enhancements
-
----
-
-## 📸 Screenshots
-
-> *(Add screenshots here if available, or use tools like Lightshot / Snipping Tool to capture one from browser UI)*
 
 ---
 
