@@ -2,7 +2,7 @@
 
 A full-featured web-based Password Toolkit built using **Flask**, offering both a **Password Generator** and **Password Analyzer**. This toolkit helps users create strong passwords and evaluate password strength based on various metrics like length, character variety, sequential patterns, and data breach history (using Have I Been Pwned API).
 
-Live Demo: 👉 [Click here to use the Password Toolkit]([https://your-render-app-url.onrender.com](https://password-toolkit-clfw.onrender.com))
+Live Demo: 👉 [Click here to use the Password Toolkit](https://password-toolkit-clfw.onrender.com)
 
 
 ---
